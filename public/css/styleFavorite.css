@@ -1,0 +1,9 @@
+
+.favorite-icon i.fa-solid {
+    color: red; 
+    transition: color 4s;
+}
+.favorite-icon i.fa-regular {
+    color: blue; 
+    transition: color 2s;
+}

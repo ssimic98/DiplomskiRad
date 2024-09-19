@@ -1,0 +1,14 @@
+
+#toastLoad
+{
+    background: rgb(93, 197, 91);
+}
+#errorToast
+{
+    background: rgb(251, 12, 12);
+}
+.toast-icon {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}

@@ -1,0 +1,65 @@
+.navbar-custom {
+    background-color:rgb(54, 65, 161); 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+    color: #f8d7da; 
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.formEdit {
+    background-color: rgb(208,208,218);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+.health-status-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,130px);
+    gap: 10px;
+}
+
+.health-status-item
+{
+    display: flex;
+    align-items: center;
+}
+
+.characteristic-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,110px);
+    gap: 10px;
+}
+
+.characteristic-item
+{
+    display: flex;
+    align-items: center;
+}
+
+.invalid-feedback
+{
+    margin-top: 5px;
+    grid-column: 1 / -1;
+}

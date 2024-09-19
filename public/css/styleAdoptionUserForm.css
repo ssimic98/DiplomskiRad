@@ -1,0 +1,43 @@
+.formEdit {
+    background-color: rgb(208,208,218);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.radio-item
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.checkbox-item
+{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,130px);
+    gap: 5px;
+}
+
+
+
+.invalid-feedback
+{
+    margin-top: 5px;
+    grid-column: 1 / -1;
+}

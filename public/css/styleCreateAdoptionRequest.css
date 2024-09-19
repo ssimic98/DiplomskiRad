@@ -1,0 +1,12 @@
+.question-item {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+}
+
+.question-item .btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
